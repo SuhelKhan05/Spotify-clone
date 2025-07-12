@@ -1,0 +1,236 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font: weight 100px;
+    font-style: normal;
+    margin: 0;
+    background: black;
+    color: white;
+    overflow: hidden;
+    
+
+}
+
+.main {
+    padding: 0.5rem;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background: #000;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+.navbar {
+    background: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.nav_option {
+    /* padding: 0.75rem 0.75rem; */
+    line-height: 2.5rem;
+    opacity: 0.75;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav_option i {
+    font-size: 1.25rem;
+}
+
+.nav_option a {
+    font-size: 1 rem;
+    margin-left: 1rem;
+
+}
+
+.nav_option:hover {
+    opacity: 1;
+}
+
+.libarary {
+    background: #121212;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.option {
+    display: flex;
+    line-height: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.libarary img {
+    height: 1.5rem;
+}
+
+.icon {
+    font-size: 1.25rem;
+    
+   
+}
+.icon i{
+    opacity: 0.7;
+    margin: 0.25rem;
+
+}
+.icon i:hover {
+    opacity:1;
+}
+
+
+.maincontent {
+    background: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.sticky_nav{
+ position: sticky;
+ top: 0;
+ background: #121212;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem 0rem 1rem 0rem;
+}
+.sticky_icons{
+margin-left: 0.5rem;
+}
+.sticky_options{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0.5rem;
+    }
+    
+.lib_boxes{
+    height: 8rem;
+    background: #232323;
+    margin :0.75rem 0.75rem 1.75rem 0rem;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem ;
+
+}
+.badge{
+     border-radius:1rem ;
+     padding: 0.25rem 1rem;
+     border: none;
+     font-weight: 700;
+     height: 2rem;
+     margin-top: 0.5rem;
+     width:fit-content;
+}
+.dark_badge{
+    background: #000;
+    color: white;
+}
+.p1box1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.p2box1{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+.sticky_options .badge{
+    margin-right: 1rem;
+}
+
+.musicplayer {
+    background: #232323;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:1000px){
+  .hide{
+        display: none;
+    }
+}
+.card{
+    background: #232323 ;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+
+}
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.trend{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.card_img{
+    width: 150px;
+    border-radius: 0.5rem;
+}
+.card_title{
+font-weight: 600;
+
+} 
+.card_info{
+opacity: 0.8;
+font-size: 0.85rem;
+} 
+ .play_icons{
+    justify-content:space-between;
+    display: flex;
+    
+    
+}
+.play_icons img{
+    width: 0.75rem;
+    height: 0.75rem;
+    margin:0.75rem 1rem 0 1rem;
+    
+}
+
+.playbar{
+
+width: 26.5rem;
+margin-left: 21.75rem;
+}
+.controls{
+
+margin-right: 2.25rem;
+
+
+
+}
+.controls img{
+   /* padding-right: 1.5rem; */
+   margin-top: 1.5rem;
+   
+   
+}
+.progress-bar{
+   width: 20rem;
+   margin-top: 0.75rem;
+}
